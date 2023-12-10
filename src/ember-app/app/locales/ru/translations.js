@@ -143,6 +143,14 @@ $.extend(true, translations, {
               title: 'Гость'
             }
           }
+        },
+        klienty: {
+          caption: 'Klienty',
+          title: 'Klienty',
+          'i-i-s-probachetyre-гость-l': {
+            caption: 'ГостьL',
+            title: 'Гость'
+          }
         }
       }
     },

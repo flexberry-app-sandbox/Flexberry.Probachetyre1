@@ -22,55 +22,56 @@ export default Controller.extend({
             link: 'i-i-s-probachetyre-комната-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-комната-l.title'),
-            icon: 'list',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-probachetyre-должности-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-должности-l.title'),
-            icon: 'book',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-probachetyre-форма-рег-карт-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-карт-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-карт-l.title'),
-            icon: 'building',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-probachetyre-гость-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-гость-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-гость-l.title'),
-            icon: 'edit',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-probachetyre-карты-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-карты-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-карты-l.title'),
-            icon: 'tasks',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-probachetyre-форма-рег-входа-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-входа-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-входа-l.title'),
-            icon: 'chart line',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-probachetyre-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-сотрудник-l.title'),
-            icon: 'file',
+            icon: 'folder open',
             children: null
-          }, {
-            link: null,
-            caption: i18n.t('forms.application.sitemap.probachetyre.klienty.caption'),
-            title: i18n.t('forms.application.sitemap.probachetyre.klienty.title'),
-            children: [{
-              link: 'i-i-s-probachetyre-гость-l',
-              caption: i18n.t('forms.application.sitemap.probachetyre.klienty.i-i-s-probachetyre-гость-l.caption'),
-              title: i18n.t('forms.application.sitemap.probachetyre.klienty.i-i-s-probachetyre-гость-l.title'),
-              icon: 'tags',
-              children: null
-            }]
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.klienty.caption'),
+          title: i18n.t('forms.application.sitemap.klienty.title'),
+          children: [{
+            link: 'i-i-s-probachetyre-гость-l',
+            caption: i18n.t('forms.application.sitemap.klienty.i-i-s-probachetyre-гость-l.caption'),
+            title: i18n.t('forms.application.sitemap.klienty.i-i-s-probachetyre-гость-l.title'),
+            icon: 'paperclip',
+            children: null
           }]
         }
       ]
