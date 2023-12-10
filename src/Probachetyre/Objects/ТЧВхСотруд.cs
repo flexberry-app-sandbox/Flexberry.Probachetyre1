@@ -30,9 +30,7 @@ namespace IIS.Probachetyre
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТЧВхСотрудE", new string[] {
             "Сотрудник as \'Сотрудник\'",
-            "Сотрудник.Имя as \'Имя\'",
-            "Сотрудник.Должности as \'Должности\'",
-            "Сотрудник.Должности.Должность as \'Должность\'"})]
+            "Сотрудник.Должности as \'Должности\'"})]
     [MasterViewDefineAttribute("ТЧВхСотрудE", "Сотрудник", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     public class ТЧВхСотруд : ICSSoft.STORMNET.DataObject
     {
