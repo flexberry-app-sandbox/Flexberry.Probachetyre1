@@ -134,6 +134,14 @@ $.extend(true, translations, {
           'i-i-s-probachetyre-сотрудник-l': {
             caption: 'Сотрудник',
             title: ''
+          },
+          klienty: {
+            caption: 'Klienty',
+            title: 'Klienty',
+            'i-i-s-probachetyre-гость-l': {
+              caption: 'ГостьL',
+              title: 'Гость'
+            }
           }
         }
       }

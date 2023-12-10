@@ -56,6 +56,21 @@
           "caption": "Сотрудник",
           "title": "",
           "children": null
+        },
+        {
+          "link": null,
+          "menuName": "klienty",
+          "caption": "Klienty",
+          "title": "Klienty",
+          "children": [
+            {
+              "link": "i-i-s-probachetyre-гость-l",
+              "menuName": null,
+              "caption": "ГостьL",
+              "title": "Гость",
+              "children": null
+            }
+          ]
         }
       ]
     }
