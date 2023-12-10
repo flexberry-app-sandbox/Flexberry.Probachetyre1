@@ -68,14 +68,14 @@
       "hasMany": [
         {
           "projectionName": "ТЧРегВхГостE",
-          "caption": "Регистрация входа гостей",
+          "caption": "Вход гостя",
           "name": "тЧРегВхГост",
           "relatedTo": "i-i-s-probachetyre-т-ч-рег-вх-гост",
           "inverse": null
         },
         {
           "projectionName": "ТЧВхСотрудE",
-          "caption": "Регистрация входа сотрудников",
+          "caption": "Вход сотрудника",
           "name": "тЧВхСотруд",
           "relatedTo": "i-i-s-probachetyre-т-ч-вх-сотруд",
           "inverse": null
@@ -94,7 +94,22 @@
         }
       ],
       "belongsTo": [],
-      "hasMany": []
+      "hasMany": [
+        {
+          "projectionName": "ТЧВхСотрудE",
+          "caption": "Вход сотрудника",
+          "name": "тЧВхСотруд",
+          "relatedTo": "i-i-s-probachetyre-т-ч-вх-сотруд",
+          "inverse": null
+        },
+        {
+          "projectionName": "ТЧРегВхГостE",
+          "caption": "Вход гостя",
+          "name": "тЧРегВхГост",
+          "relatedTo": "i-i-s-probachetyre-т-ч-рег-вх-гост",
+          "inverse": null
+        }
+      ]
     }
   ],
   "stored": true,

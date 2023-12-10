@@ -48,7 +48,7 @@ export let defineProjections = function (modelClass) {
     комната: belongsTo('i-i-s-probachetyre-комната', 'Комната', {
 
     }, { index: 1, displayMemberPath: 'номер' }),
-    тЧРегВхГост: hasMany('i-i-s-probachetyre-т-ч-рег-вх-гост', 'Регистрация входа гостей', {
+    тЧРегВхГост: hasMany('i-i-s-probachetyre-т-ч-рег-вх-гост', 'Вход гостя', {
       гость: belongsTo('i-i-s-probachetyre-гость', 'Гость', {
 
       }, { index: 0, displayMemberPath: 'фамилия' }),
@@ -56,7 +56,7 @@ export let defineProjections = function (modelClass) {
 
       }, { index: 1, displayMemberPath: 'код карты' })
     }),
-    тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Регистрация входа сотрудников', {
+    тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Вход сотрудника', {
       сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
 
       }, { index: 0, displayMemberPath: 'фамилия' })
@@ -64,6 +64,19 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ФормаРегВходаL', 'i-i-s-probachetyre-форма-рег-входа', {
-    дата: attr('Дата', { index: 0 })
+    дата: attr('Дата', { index: 0 }),
+    тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Вход сотрудника', {
+      сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
+
+      }, { index: 0, displayMemberPath: 'фамилия' })
+    }),
+    тЧРегВхГост: hasMany('i-i-s-probachetyre-т-ч-рег-вх-гост', 'Вход гостя', {
+      гость: belongsTo('i-i-s-probachetyre-гость', 'Гость', {
+
+      }, { index: 0, displayMemberPath: 'фамилия' }),
+      карты: belongsTo('i-i-s-probachetyre-карты', 'Карты', {
+
+      }, { index: 1, displayMemberPath: 'код карты' })
+    })
   });
 };

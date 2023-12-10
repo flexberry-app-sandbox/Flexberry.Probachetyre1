@@ -32,13 +32,17 @@ namespace IIS.Probachetyre
     [View("ФормаРегВходаE", new string[] {
             "Дата as \'Дата\'",
             "Комната as \'Комната\'"})]
-    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧРегВхГост", "ТЧРегВхГостE", true, "", "Регистрация входа гостей", true, new string[] {
+    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧРегВхГост", "ТЧРегВхГостE", true, "", "Вход гостя", true, new string[] {
             ""})]
-    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧВхСотруд", "ТЧВхСотрудE", true, "", "Регистрация входа сотрудников", true, new string[] {
+    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧВхСотруд", "ТЧВхСотрудE", true, "", "Вход сотрудника", true, new string[] {
             ""})]
     [MasterViewDefineAttribute("ФормаРегВходаE", "Комната", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
     [View("ФормаРегВходаL", new string[] {
             "Дата as \'Дата\'"})]
+    [AssociatedDetailViewAttribute("ФормаРегВходаL", "ТЧВхСотруд", "ТЧВхСотрудE", true, "", "Вход сотрудника", true, new string[] {
+            ""})]
+    [AssociatedDetailViewAttribute("ФормаРегВходаL", "ТЧРегВхГост", "ТЧРегВхГостE", true, "", "Вход гостя", true, new string[] {
+            ""})]
     public class ФормаРегВхода : ICSSoft.STORMNET.DataObject
     {
         
