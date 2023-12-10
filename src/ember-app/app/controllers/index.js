@@ -22,7 +22,7 @@ export default Controller.extend({
             link: 'i-i-s-probachetyre-гость-l',
             caption: i18n.t('forms.application.sitemap.клиенты.i-i-s-probachetyre-гость-l.caption'),
             title: i18n.t('forms.application.sitemap.клиенты.i-i-s-probachetyre-гость-l.title'),
-            icon: 'chart line',
+            icon: 'book',
             children: null
           }]
         }, {
@@ -34,25 +34,25 @@ export default Controller.extend({
             link: 'i-i-s-probachetyre-комната-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-комната-l.title'),
-            icon: 'table',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-probachetyre-должности-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-должности-l.title'),
-            icon: 'table',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-probachetyre-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-сотрудник-l.title'),
-            icon: 'file',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-probachetyre-карты-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-карты-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-probachetyre-карты-l.title'),
-            icon: 'paperclip',
+            icon: 'tags',
             children: null
           }]
         }, {
@@ -64,12 +64,13 @@ export default Controller.extend({
             link: 'i-i-s-probachetyre-форма-рег-карт-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-probachetyre-форма-рег-карт-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-probachetyre-форма-рег-карт-l.title'),
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-probachetyre-форма-рег-входа-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-probachetyre-форма-рег-входа-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-probachetyre-форма-рег-входа-l.title'),
-            icon: 'briefcase',
+            icon: 'edit',
             children: null
           }]
         }
