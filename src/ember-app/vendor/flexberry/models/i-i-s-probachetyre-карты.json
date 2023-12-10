@@ -11,7 +11,7 @@
       "type": "number",
       "flexberryType": "int",
       "notNull": false,
-      "defaultValue": "",
+      "defaultValue": "1",
       "stored": true,
       "ordered": false
     },
