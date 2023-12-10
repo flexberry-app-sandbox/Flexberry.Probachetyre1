@@ -57,7 +57,9 @@ export let defineProjections = function (modelClass) {
       }, { index: 1, displayMemberPath: 'код карты' })
     }),
     тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Регистрация входа сотрудников', {
-      
+      сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
+
+      }, { index: 0, displayMemberPath: 'фамилия' })
     })
   });
 
