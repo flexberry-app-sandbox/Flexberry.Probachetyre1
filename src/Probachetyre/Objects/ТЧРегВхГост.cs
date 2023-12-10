@@ -27,7 +27,7 @@ namespace IIS.Probachetyre
 
     // *** End programmer edit section *** (ТЧРегВхГост CustomAttributes)
     [AutoAltered()]
-    [Caption("Т ч рег вх гост")]
+    [Caption("Вход гостя")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТЧРегВхГостE", new string[] {
             "Гость as \'Гость\'",

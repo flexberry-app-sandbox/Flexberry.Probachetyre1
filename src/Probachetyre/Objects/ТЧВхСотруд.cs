@@ -27,6 +27,7 @@ namespace IIS.Probachetyre
 
     // *** End programmer edit section *** (ТЧВхСотруд CustomAttributes)
     [AutoAltered()]
+    [Caption("Вход сотрудника")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТЧВхСотрудE", new string[] {
             "Сотрудник as \'Сотрудник\'"})]

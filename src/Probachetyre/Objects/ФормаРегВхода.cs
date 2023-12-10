@@ -27,7 +27,7 @@ namespace IIS.Probachetyre
 
     // *** End programmer edit section *** (ФормаРегВхода CustomAttributes)
     [AutoAltered()]
-    [Caption("Форма рег входа")]
+    [Caption("Регистрация входа в номер")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ФормаРегВходаE", new string[] {
             "Дата as \'Дата\'",
