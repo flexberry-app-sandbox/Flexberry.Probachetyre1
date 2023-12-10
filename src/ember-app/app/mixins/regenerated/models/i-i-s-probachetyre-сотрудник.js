@@ -81,7 +81,7 @@ export let defineProjections = function (modelClass) {
     имя: attr('Имя', { index: 1 }),
     отчество: attr('Отчество', { index: 2 }),
     датаРождения: attr('Дата рождения', { index: 3 }),
-    серНомПаспорта: attr('Сер ном паспорта', { index: 4 }),
+    серНомПаспорта: attr('Серия и номер паспорта', { index: 4 }),
     телефон: attr('Телефон', { index: 5 }),
     должности: belongsTo('i-i-s-probachetyre-должности', 'Должность', {
       должность: attr('Должность', { index: 6 })
