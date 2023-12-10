@@ -40,31 +40,31 @@ export default Controller.extend({
             link: 'i-i-s-probachetyre-форма-рег-карт-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-карт-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-карт-l.title'),
-            icon: 'tags',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-probachetyre-гость-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-гость-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-гость-l.title'),
-            icon: 'list',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-probachetyre-карты-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-карты-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-карты-l.title'),
-            icon: 'paperclip',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-probachetyre-форма-рег-входа-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-входа-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-форма-рег-входа-l.title'),
-            icon: 'briefcase',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-probachetyre-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.probachetyre.i-i-s-probachetyre-сотрудник-l.title'),
-            icon: 'folder open',
+            icon: 'phone',
             children: null
           }]
         }, {
@@ -76,7 +76,7 @@ export default Controller.extend({
             link: 'i-i-s-probachetyre-гость-l',
             caption: i18n.t('forms.application.sitemap.klienty.i-i-s-probachetyre-гость-l.caption'),
             title: i18n.t('forms.application.sitemap.klienty.i-i-s-probachetyre-гость-l.title'),
-            icon: 'paperclip',
+            icon: 'list',
             children: null
           }]
         }

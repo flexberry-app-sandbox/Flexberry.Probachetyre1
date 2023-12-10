@@ -70,7 +70,10 @@ export let defineProjections = function (modelClass) {
     отчество: attr('Отчество', { index: 2 }),
     датаРождения: attr('Дата рождения', { index: 3 }),
     серНомПаспорта: attr('Сер ном паспорта', { index: 4 }),
-    телефон: attr('Телефон', { index: 5 })
+    телефон: attr('Телефон', { index: 5 }),
+    должности: belongsTo('i-i-s-probachetyre-должности', 'Должности', {
+
+    }, { index: 6, displayMemberPath: 'должность' })
   });
 
   modelClass.defineProjection('СотрудникL', 'i-i-s-probachetyre-сотрудник', {
