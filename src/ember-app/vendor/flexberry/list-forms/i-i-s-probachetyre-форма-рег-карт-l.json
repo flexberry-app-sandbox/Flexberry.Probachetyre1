@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probachetyre-форма-рег-карт-e",
+  "editForm": "i-i-s-probachetyre-форма-рег-карт-e",
+  "external": false,
+  "caption": "Форма рег карт",
+  "name": "IISProbachetyreФормаРегКартL",
+  "className": "ФормаРегКартL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probachetyre-форма-рег-карт",
+      "modelProjection": "ФормаРегКартL"
+    }
+  ]
+}

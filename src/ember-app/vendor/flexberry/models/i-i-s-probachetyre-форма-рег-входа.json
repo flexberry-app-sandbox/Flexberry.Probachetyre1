@@ -1,0 +1,110 @@
+﻿{
+  "name": "IISProbachetyreФормаРегВхода",
+  "modelName": "i-i-s-probachetyre-форма-рег-входа",
+  "className": "ФормаРегВхода",
+  "nameSpace": "IIS.Probachetyre",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "комната",
+      "relatedTo": "i-i-s-probachetyre-комната",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тЧВхСотруд",
+      "relatedTo": "i-i-s-probachetyre-т-ч-вх-сотруд",
+      "inverse": "формаРегВхода"
+    },
+    {
+      "name": "тЧРегВхГост",
+      "relatedTo": "i-i-s-probachetyre-т-ч-рег-вх-гост",
+      "inverse": "формаРегВхода"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ФормаРегВходаE",
+      "modelName": "i-i-s-probachetyre-форма-рег-входа",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Комната",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Комната",
+          "name": "комната",
+          "relatedTo": "i-i-s-probachetyre-комната",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧРегВхГостE",
+          "caption": "Т ч рег вх гост",
+          "name": "тЧРегВхГост",
+          "relatedTo": "i-i-s-probachetyre-т-ч-рег-вх-гост",
+          "inverse": null
+        },
+        {
+          "projectionName": "ТЧВхСотрудE",
+          "caption": "Т ч вх сотруд",
+          "name": "тЧВхСотруд",
+          "relatedTo": "i-i-s-probachetyre-т-ч-вх-сотруд",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ФормаРегВходаL",
+      "modelName": "i-i-s-probachetyre-форма-рег-входа",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

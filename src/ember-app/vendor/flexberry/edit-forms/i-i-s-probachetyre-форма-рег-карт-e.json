@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Форма рег карт",
+  "name": "IISProbachetyreФормаРегКартE",
+  "className": "ФормаРегКартE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probachetyre-форма-рег-карт",
+      "modelProjection": "ФормаРегКартE"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Probachetyre",
+  "applicationTitle": "Probachetyre",
+  "items": [
+    {
+      "link": null,
+      "menuName": "probachetyre",
+      "caption": "Probachetyre",
+      "title": "Probachetyre",
+      "children": [
+        {
+          "link": "i-i-s-probachetyre-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-форма-рег-карт-l",
+          "menuName": null,
+          "caption": "Форма рег карт",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-гость-l",
+          "menuName": null,
+          "caption": "Гость",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-карты-l",
+          "menuName": null,
+          "caption": "Карты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-форма-рег-входа-l",
+          "menuName": null,
+          "caption": "Форма рег входа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

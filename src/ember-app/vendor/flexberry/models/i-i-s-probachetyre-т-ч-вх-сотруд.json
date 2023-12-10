@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISProbachetyreТЧВхСотруд",
+  "modelName": "i-i-s-probachetyre-т-ч-вх-сотруд",
+  "className": "ТЧВхСотруд",
+  "nameSpace": "IIS.Probachetyre",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-probachetyre-сотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "формаРегВхода",
+      "relatedTo": "i-i-s-probachetyre-форма-рег-входа",
+      "inverse": "тЧВхСотруд"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧВхСотрудE",
+      "modelName": "i-i-s-probachetyre-т-ч-вх-сотруд",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

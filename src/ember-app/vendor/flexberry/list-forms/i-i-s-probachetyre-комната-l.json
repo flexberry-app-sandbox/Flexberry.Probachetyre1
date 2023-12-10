@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probachetyre-комната-e",
+  "editForm": "i-i-s-probachetyre-комната-e",
+  "external": false,
+  "caption": "Комната",
+  "name": "IISProbachetyreКомнатаL",
+  "className": "КомнатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probachetyre-комната",
+      "modelProjection": "КомнатаL"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+﻿{
+  "name": "IISProbachetyreТЧРегВхГост",
+  "modelName": "i-i-s-probachetyre-т-ч-рег-вх-гост",
+  "className": "ТЧРегВхГост",
+  "nameSpace": "IIS.Probachetyre",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "гость",
+      "relatedTo": "i-i-s-probachetyre-гость",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "карты",
+      "relatedTo": "i-i-s-probachetyre-карты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "формаРегВхода",
+      "relatedTo": "i-i-s-probachetyre-форма-рег-входа",
+      "inverse": "тЧРегВхГост"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧРегВхГостE",
+      "modelName": "i-i-s-probachetyre-т-ч-рег-вх-гост",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Гость",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Гость",
+          "name": "гость",
+          "relatedTo": "i-i-s-probachetyre-гость",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Код карты",
+          "lookupValueField": "код карты",
+          "relationName": "Карты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "кодКарты",
+              "caption": "Код карты",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Карты",
+          "name": "карты",
+          "relatedTo": "i-i-s-probachetyre-карты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

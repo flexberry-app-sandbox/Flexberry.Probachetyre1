@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комната",
+      "projection": "КомнатаL",
+      "detailModelName": null
+    },
+    {
+      "master": "гость",
+      "displayAttributeName": "фамилия",
+      "required": true,
+      "relationName": "ТЧРегВхГост.Гость",
+      "projection": "ГостьL",
+      "detailModelName": "i-i-s-probachetyre-т-ч-рег-вх-гост"
+    },
+    {
+      "master": "карты",
+      "displayAttributeName": "код карты",
+      "required": true,
+      "relationName": "ТЧРегВхГост.Карты",
+      "projection": "КартыL",
+      "detailModelName": "i-i-s-probachetyre-т-ч-рег-вх-гост"
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ТЧВхСотруд.Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Форма рег входа",
+  "name": "IISProbachetyreФормаРегВходаE",
+  "className": "ФормаРегВходаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probachetyre-форма-рег-входа",
+      "modelProjection": "ФормаРегВходаE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probachetyre-карты-e",
+  "editForm": "i-i-s-probachetyre-карты-e",
+  "external": false,
+  "caption": "Карты",
+  "name": "IISProbachetyreКартыL",
+  "className": "КартыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probachetyre-карты",
+      "modelProjection": "КартыL"
+    }
+  ]
+}
