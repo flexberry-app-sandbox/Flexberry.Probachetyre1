@@ -5,7 +5,7 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
-  кодКарты: DS.attr('number', { defaultValue: 1 }),
+  кодКарты: DS.attr('number'),
   типКарты: DS.attr('i-i-s-probachetyre-вид-карты')
 });
 

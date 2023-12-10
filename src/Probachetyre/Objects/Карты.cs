@@ -37,7 +37,7 @@ namespace IIS.Probachetyre
     public class Карты : ICSSoft.STORMNET.DataObject
     {
         
-        private int fКодКарты = 1;
+        private int fКодКарты;
         
         private IIS.Probachetyre.ВидКарты fТипКарты;
         
