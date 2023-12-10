@@ -52,7 +52,19 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ФормаРегКартE', 'i-i-s-probachetyre-форма-рег-карт', {
-    дата: attr('Дата', { index: 0 })
+    дата: attr('Дата', { index: 0 }),
+    карты: belongsTo('i-i-s-probachetyre-карты', 'Карта', {
+
+    }, { index: 1, displayMemberPath: 'код карты' }),
+    комната: belongsTo('i-i-s-probachetyre-комната', 'Комната', {
+
+    }, { index: 2, displayMemberPath: 'номер' }),
+    гость: belongsTo('i-i-s-probachetyre-гость', 'Гость', {
+
+    }, { index: 3, displayMemberPath: 'фамилия' }),
+    сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Ответственный', {
+
+    }, { index: 4, displayMemberPath: 'фамилия' })
   });
 
   modelClass.defineProjection('ФормаРегКартL', 'i-i-s-probachetyre-форма-рег-карт', {

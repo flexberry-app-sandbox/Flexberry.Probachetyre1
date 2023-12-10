@@ -1,6 +1,9 @@
 export default {
   projections: {
     ТЧВхСотрудE: {
+      сотрудник: {
+        __caption__: 'Сотрудник'
+      }
     }
   },
   validations: {

@@ -31,6 +31,18 @@ export default EditFormController.extend({
           };
           break;
 
+        case 'i-i-s-probachetyre-т-ч-вх-сотруд+сотрудник':
+          cellComponent.componentProperties = {
+            choose: 'showLookupDialog',
+            remove: 'removeLookupValue',
+            displayAttributeName: 'фамилия',
+            required: true,
+            relationName: 'сотрудник',
+            projection: 'СотрудникL',
+            autocomplete: true,
+          };
+          break;
+
       }
     }
 

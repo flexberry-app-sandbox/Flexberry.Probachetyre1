@@ -54,16 +54,6 @@
     {{flexberry-validationmessage error=(v-get validationModel "комната" "message")}}
   </div>
   <div class="field">
-    {{flexberry-field
-      readonly=true
-      value=model.комната.номер
-      class=(if (v-get validationModel.комната "номер" "isInvalid") "error")
-      label=(t "forms.i-i-s-probachetyre-форма-рег-входа-e.комната.номер-caption")
-      data-test-i-i-s-probachetyre-форма-рег-входа-e-комната-номер=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel.комната "номер" "message")}}
-  </div>
-  <div class="field">
     <label>{{t "forms.i-i-s-probachetyre-форма-рег-входа-e.тЧРегВхГост-caption"}}</label>
     {{flexberry-groupedit
       componentName="тЧРегВхГостGroupEdit"

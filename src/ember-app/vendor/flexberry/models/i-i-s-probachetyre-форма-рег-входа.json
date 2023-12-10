@@ -56,14 +56,7 @@
           "relationName": "Комната",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [
-            {
-              "name": "номер",
-              "caption": "Номер",
-              "hidden": false,
-              "index": 2
-            }
-          ],
+          "attrs": [],
           "index": 1,
           "type": "standard",
           "caption": "Комната",

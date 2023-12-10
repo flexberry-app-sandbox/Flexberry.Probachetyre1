@@ -46,7 +46,7 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ФормаРегВходаE', 'i-i-s-probachetyre-форма-рег-входа', {
     дата: attr('Дата', { index: 0 }),
     комната: belongsTo('i-i-s-probachetyre-комната', 'Комната', {
-      номер: attr('Номер', { index: 2 })
+
     }, { index: 1, displayMemberPath: 'номер' }),
     тЧРегВхГост: hasMany('i-i-s-probachetyre-т-ч-рег-вх-гост', 'Т ч рег вх гост', {
       гость: belongsTo('i-i-s-probachetyre-гость', 'Гость', {
@@ -57,7 +57,9 @@ export let defineProjections = function (modelClass) {
       }, { index: 1, displayMemberPath: 'код карты' })
     }),
     тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Т ч вх сотруд', {
-      
+      сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
+
+      }, { index: 0, displayMemberPath: 'фамилия' })
     })
   });
 

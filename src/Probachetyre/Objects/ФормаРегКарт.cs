@@ -30,7 +30,15 @@ namespace IIS.Probachetyre
     [Caption("Форма рег карт")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ФормаРегКартE", new string[] {
-            "Дата as \'Дата\'"})]
+            "Дата as \'Дата\'",
+            "Карты as \'Карта\'",
+            "Комната as \'Комната\'",
+            "Гость as \'Гость\'",
+            "Сотрудник as \'Ответственный\'"})]
+    [MasterViewDefineAttribute("ФормаРегКартE", "Карты", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Код карты")]
+    [MasterViewDefineAttribute("ФормаРегКартE", "Комната", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
+    [MasterViewDefineAttribute("ФормаРегКартE", "Гость", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
+    [MasterViewDefineAttribute("ФормаРегКартE", "Сотрудник", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     [View("ФормаРегКартL", new string[] {
             "Дата as \'Дата\'",
             "Комната.Номер as \'Номер\'",
