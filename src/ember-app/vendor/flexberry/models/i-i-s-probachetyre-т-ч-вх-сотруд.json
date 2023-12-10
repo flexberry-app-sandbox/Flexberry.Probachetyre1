@@ -28,44 +28,7 @@
       "name": "ТЧВхСотрудE",
       "modelName": "i-i-s-probachetyre-т-ч-вх-сотруд",
       "attrs": [],
-      "belongsTo": [
-        {
-          "lookupValue": "Фамилия",
-          "lookupValueField": "фамилия",
-          "relationName": "Сотрудник",
-          "belongsTo": [
-            {
-              "lookupValue": null,
-              "lookupValueField": null,
-              "relationName": "Сотрудник.Должности",
-              "belongsTo": [],
-              "hidden": false,
-              "attrs": [
-                {
-                  "name": "должность",
-                  "caption": "Должность",
-                  "hidden": false,
-                  "index": 1
-                }
-              ],
-              "index": -1,
-              "type": null,
-              "caption": "",
-              "name": "должности",
-              "relatedTo": "i-i-s-probachetyre-должности",
-              "inverse": null
-            }
-          ],
-          "hidden": false,
-          "attrs": [],
-          "index": 0,
-          "type": "standard",
-          "caption": "Сотрудник",
-          "name": "сотрудник",
-          "relatedTo": "i-i-s-probachetyre-сотрудник",
-          "inverse": null
-        }
-      ],
+      "belongsTo": [],
       "hasMany": []
     }
   ],
