@@ -28,22 +28,7 @@
       "name": "ТЧВхСотрудE",
       "modelName": "i-i-s-probachetyre-т-ч-вх-сотруд",
       "attrs": [],
-      "belongsTo": [
-        {
-          "lookupValue": "Фамилия",
-          "lookupValueField": "фамилия",
-          "relationName": "Сотрудник",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [],
-          "index": 0,
-          "type": "standard",
-          "caption": "Сотрудник",
-          "name": "сотрудник",
-          "relatedTo": "i-i-s-probachetyre-сотрудник",
-          "inverse": null
-        }
-      ],
+      "belongsTo": [],
       "hasMany": []
     }
   ],
