@@ -31,9 +31,7 @@ namespace IIS.Probachetyre
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТЧРегВхГостE", new string[] {
             "Гость as \'Гость\'",
-            "Гость.Фамилия as \'Фамилия\'",
-            "Карты as \'Карты\'",
-            "Карты.КодКарты as \'Код карты\'"})]
+            "Карты as \'Карты\'"})]
     [MasterViewDefineAttribute("ТЧРегВхГостE", "Гость", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     [MasterViewDefineAttribute("ТЧРегВхГостE", "Карты", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Код карты")]
     public class ТЧРегВхГост : ICSSoft.STORMNET.DataObject

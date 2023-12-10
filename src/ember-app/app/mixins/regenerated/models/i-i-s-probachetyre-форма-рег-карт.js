@@ -56,6 +56,20 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ФормаРегКартL', 'i-i-s-probachetyre-форма-рег-карт', {
-    дата: attr('Дата', { index: 0 })
+    дата: attr('Дата', { index: 0 }),
+    комната: belongsTo('i-i-s-probachetyre-комната', 'Номер', {
+      номер: attr('Номер', { index: 1 })
+    }, { index: -1, hidden: true }),
+    карты: belongsTo('i-i-s-probachetyre-карты', 'Код карты', {
+      кодКарты: attr('Код карты', { index: 2 })
+    }, { index: -1, hidden: true }),
+    гость: belongsTo('i-i-s-probachetyre-гость', 'Фамилия', {
+      фамилия: attr('Фамилия', { index: 3 }),
+      имя: attr('Имя', { index: 4 }),
+      отчество: attr('Отчество', { index: 5 })
+    }, { index: -1, hidden: true }),
+    сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Ответственный', {
+      фамилия: attr('Ответственный', { index: 6 })
+    }, { index: -1, hidden: true })
   });
 };

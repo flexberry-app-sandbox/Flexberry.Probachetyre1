@@ -42,14 +42,7 @@
           "relationName": "Гость",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [
-            {
-              "name": "фамилия",
-              "caption": "Фамилия",
-              "hidden": false,
-              "index": 1
-            }
-          ],
+          "attrs": [],
           "index": 0,
           "type": "standard",
           "caption": "Гость",
@@ -63,15 +56,8 @@
           "relationName": "Карты",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [
-            {
-              "name": "кодКарты",
-              "caption": "Код карты",
-              "hidden": false,
-              "index": 3
-            }
-          ],
-          "index": 2,
+          "attrs": [],
+          "index": 1,
           "type": "standard",
           "caption": "Карты",
           "name": "карты",
