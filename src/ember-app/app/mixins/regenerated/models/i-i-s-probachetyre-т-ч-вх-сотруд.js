@@ -29,7 +29,9 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТЧВхСотрудE', 'i-i-s-probachetyre-т-ч-вх-сотруд', {
     сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
-
+      должности: belongsTo('i-i-s-probachetyre-должности', '', {
+        должность: attr('Должность', { index: 1 })
+      }, { index: -1, hidden: true })
     }, { index: 0, displayMemberPath: 'фамилия' })
   });
 };
