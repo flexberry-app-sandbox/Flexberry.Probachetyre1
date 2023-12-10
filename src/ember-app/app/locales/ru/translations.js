@@ -104,6 +104,46 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        клиенты: {
+          caption: 'Клиенты',
+          title: 'Клиенты',
+          'i-i-s-probachetyre-гость-l': {
+            caption: 'ГостьL',
+            title: 'Гость'
+          }
+        },
+        отель: {
+          caption: 'Отель',
+          title: 'Отель',
+          'i-i-s-probachetyre-комната-l': {
+            caption: 'КомнатаL',
+            title: 'Комната'
+          },
+          'i-i-s-probachetyre-должности-l': {
+            caption: 'ДолжностиL',
+            title: 'Должности'
+          },
+          'i-i-s-probachetyre-сотрудник-l': {
+            caption: 'СотрудникL',
+            title: 'Сотрудник'
+          },
+          'i-i-s-probachetyre-карты-l': {
+            caption: 'КартыL',
+            title: 'Карты'
+          }
+        },
+        документы: {
+          caption: 'Документы',
+          title: 'Документы',
+          'i-i-s-probachetyre-форма-рег-карт-l': {
+            caption: 'ФормаРегКартL',
+            title: 'Форма рег карт'
+          },
+          'i-i-s-probachetyre-форма-рег-входа-l': {
+            caption: 'ФормаРегВходаL',
+            title: 'Форма рег входа'
+          }
+        },
         probachetyre: {
           caption: 'Probachetyre',
           title: 'Probachetyre',
@@ -150,38 +190,6 @@ $.extend(true, translations, {
           'i-i-s-probachetyre-гость-l': {
             caption: 'ГостьL',
             title: 'Гость'
-          }
-        },
-        отель: {
-          caption: 'Отель',
-          title: 'Отель',
-          'i-i-s-probachetyre-комната-l': {
-            caption: 'КомнатаL',
-            title: 'Комната'
-          },
-          'i-i-s-probachetyre-должности-l': {
-            caption: 'ДолжностиL',
-            title: 'Должности'
-          },
-          'i-i-s-probachetyre-сотрудник-l': {
-            caption: 'СотрудникL',
-            title: 'Сотрудник'
-          },
-          'i-i-s-probachetyre-карты-l': {
-            caption: 'КартыL',
-            title: 'Карты'
-          }
-        },
-        документы: {
-          caption: 'Документы',
-          title: 'Документы',
-          'i-i-s-probachetyre-форма-рег-карт-l': {
-            caption: 'ФормаРегКартL',
-            title: 'Форма рег карт'
-          },
-          'i-i-s-probachetyre-форма-рег-входа-l': {
-            caption: 'ФормаРегВходаL',
-            title: 'Форма рег входа'
           }
         }
       }
