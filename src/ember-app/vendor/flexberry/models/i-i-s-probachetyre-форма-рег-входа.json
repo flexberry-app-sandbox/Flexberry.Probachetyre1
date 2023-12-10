@@ -93,7 +93,29 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Комната",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер",
+          "name": "комната",
+          "relatedTo": "i-i-s-probachetyre-комната",
+          "inverse": null
+        }
+      ],
       "hasMany": [
         {
           "projectionName": "ТЧВхСотрудE",

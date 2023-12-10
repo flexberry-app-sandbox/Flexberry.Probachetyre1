@@ -65,6 +65,9 @@ export let defineProjections = function (modelClass) {
 
   modelClass.defineProjection('ФормаРегВходаL', 'i-i-s-probachetyre-форма-рег-входа', {
     дата: attr('Дата', { index: 0 }),
+    комната: belongsTo('i-i-s-probachetyre-комната', 'Номер', {
+      номер: attr('Номер', { index: 1 })
+    }, { index: -1, hidden: true }),
     тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Вход сотрудника', {
       сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
 
