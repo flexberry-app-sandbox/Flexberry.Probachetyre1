@@ -32,9 +32,9 @@ namespace IIS.Probachetyre
     [View("ФормаРегВходаE", new string[] {
             "Дата as \'Дата\'",
             "Комната as \'Комната\'"})]
-    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧРегВхГост", "ТЧРегВхГостE", true, "", "Т ч рег вх гост", true, new string[] {
+    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧРегВхГост", "ТЧРегВхГостE", true, "", "Регистрация входа гостей", true, new string[] {
             ""})]
-    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧВхСотруд", "ТЧВхСотрудE", true, "", "Т ч вх сотруд", true, new string[] {
+    [AssociatedDetailViewAttribute("ФормаРегВходаE", "ТЧВхСотруд", "ТЧВхСотрудE", true, "", "Регистрация входа сотрудников", true, new string[] {
             ""})]
     [MasterViewDefineAttribute("ФормаРегВходаE", "Комната", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
     [View("ФормаРегВходаL", new string[] {

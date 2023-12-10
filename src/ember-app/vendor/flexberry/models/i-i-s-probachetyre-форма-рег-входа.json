@@ -68,14 +68,14 @@
       "hasMany": [
         {
           "projectionName": "ТЧРегВхГостE",
-          "caption": "Т ч рег вх гост",
+          "caption": "Регистрация входа гостей",
           "name": "тЧРегВхГост",
           "relatedTo": "i-i-s-probachetyre-т-ч-рег-вх-гост",
           "inverse": null
         },
         {
           "projectionName": "ТЧВхСотрудE",
-          "caption": "Т ч вх сотруд",
+          "caption": "Регистрация входа сотрудников",
           "name": "тЧВхСотруд",
           "relatedTo": "i-i-s-probachetyre-т-ч-вх-сотруд",
           "inverse": null
