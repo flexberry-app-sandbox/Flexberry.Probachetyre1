@@ -73,6 +73,64 @@
           "children": null
         }
       ]
+    },
+    {
+      "link": null,
+      "menuName": "отель",
+      "caption": "Отель",
+      "title": "Отель",
+      "children": [
+        {
+          "link": "i-i-s-probachetyre-комната-l",
+          "menuName": null,
+          "caption": "КомнатаL",
+          "title": "Комната",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-должности-l",
+          "menuName": null,
+          "caption": "ДолжностиL",
+          "title": "Должности",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-сотрудник-l",
+          "menuName": null,
+          "caption": "СотрудникL",
+          "title": "Сотрудник",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-карты-l",
+          "menuName": null,
+          "caption": "КартыL",
+          "title": "Карты",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "документы",
+      "caption": "Документы",
+      "title": "Документы",
+      "children": [
+        {
+          "link": "i-i-s-probachetyre-форма-рег-карт-l",
+          "menuName": null,
+          "caption": "ФормаРегКартL",
+          "title": "Форма рег карт",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probachetyre-форма-рег-входа-l",
+          "menuName": null,
+          "caption": "ФормаРегВходаL",
+          "title": "Форма рег входа",
+          "children": null
+        }
+      ]
     }
   ],
   "mobile": true
