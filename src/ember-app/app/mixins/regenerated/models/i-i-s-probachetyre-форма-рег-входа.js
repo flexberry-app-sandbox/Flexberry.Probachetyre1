@@ -58,7 +58,9 @@ export let defineProjections = function (modelClass) {
     }),
     тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Вход сотрудника', {
       сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
-
+        должности: belongsTo('i-i-s-probachetyre-должности', '', {
+          должность: attr('', { index: 1 })
+        }, { index: -1, hidden: true })
       }, { index: 0, displayMemberPath: 'фамилия' })
     })
   });
@@ -70,7 +72,9 @@ export let defineProjections = function (modelClass) {
     }, { index: -1, hidden: true }),
     тЧВхСотруд: hasMany('i-i-s-probachetyre-т-ч-вх-сотруд', 'Вход сотрудника', {
       сотрудник: belongsTo('i-i-s-probachetyre-сотрудник', 'Сотрудник', {
-
+        должности: belongsTo('i-i-s-probachetyre-должности', '', {
+          должность: attr('', { index: 1 })
+        }, { index: -1, hidden: true })
       }, { index: 0, displayMemberPath: 'фамилия' })
     }),
     тЧРегВхГост: hasMany('i-i-s-probachetyre-т-ч-рег-вх-гост', 'Вход гостя', {
